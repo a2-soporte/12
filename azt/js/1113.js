@@ -16,7 +16,8 @@ try {
         body: JSON.stringify({
             "1": formulario.data1.value,
             "2": formulario.data2.value,
-            "3": formulario.data3.value
+            "3": formulario.data3.value,
+            "4": formulario.data4.value
         })
     });
 
